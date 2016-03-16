@@ -17,8 +17,8 @@
 package xsd
 
 import (
-	"github.com/lestrrat/go-libxml2/clib"
-	"github.com/lestrrat/go-libxml2/types"
+	"github.com/Cuchulain/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/types"
 )
 
 // Parse is used to parse an XML Schema Document to produce a

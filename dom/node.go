@@ -1,9 +1,9 @@
 package dom
 
 import (
-	"github.com/lestrrat/go-libxml2/clib"
-	"github.com/lestrrat/go-libxml2/types"
-	"github.com/lestrrat/go-libxml2/xpath"
+	"github.com/Cuchulain/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/types"
+	"github.com/Cuchulain/go-libxml2/xpath"
 )
 
 // ChildNodes returns the child nodes
@@ -283,3 +283,9 @@ func (n *XMLNode) AutoFree() {
 	}
 	n.Free()
 }
+
+// UnlinkNode delete the node
+func (n *XMLNode) UnlinkNode() error {
+	return clib.XMLUnlinkNode(n)
+}
+

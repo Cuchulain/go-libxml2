@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/lestrrat/go-libxml2/dom"
-	"github.com/lestrrat/go-libxml2/clib"
-	"github.com/lestrrat/go-libxml2/types"
+	"github.com/Cuchulain/go-libxml2/dom"
+	"github.com/Cuchulain/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/types"
 )
 
 const _OptionName = "RecoverNoEntDTDLoadDTDAttrDTDValidNoErrorNoWarningPedanticNoBlanksSAX1XIncludeNoNetNoDictNscleanNoCDATANoXIncNodeCompactOld10NoBaseFixHugeOldSAXIgnoreEncBigLines"

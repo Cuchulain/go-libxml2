@@ -337,7 +337,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/lestrrat/go-libxml2/internal/debug"
+	"github.com/Cuchulain/go-libxml2/internal/debug"
 )
 
 const _XPathObjectTypeName = "XPathUndefinedXPathNodeSetXPathBooleanXPathNumberXPathStringXPathPointXPathRangeXPathLocationSetXPathUSersXPathXsltTree"
@@ -2023,5 +2023,17 @@ func XMLSchemaFree(s PtrSource) error {
 	}
 
 	C.xmlSchemaFree(sptr)
+	return nil
+}
+
+func XMLUnlinkNode(n PtrSource) error {
+	nptr, err := validNodePtr(n)
+	if err != nil {
+		return err
+	}
+
+	C.xmlUnlinkNode(nptr)
+	C.xmlFreeNode(nptr)
+
 	return nil
 }

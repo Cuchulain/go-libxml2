@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/lestrrat/go-libxml2"
-	"github.com/lestrrat/go-libxml2/dom"
-	"github.com/lestrrat/go-libxml2/xpath"
+	"github.com/Cuchulain/go-libxml2"
+	"github.com/Cuchulain/go-libxml2/dom"
+	"github.com/Cuchulain/go-libxml2/xpath"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/xmlpath.v1"
 )

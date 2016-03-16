@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lestrrat/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/clib"
 	"github.com/stretchr/testify/assert"
 )
 

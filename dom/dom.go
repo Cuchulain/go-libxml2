@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lestrrat/go-libxml2/clib"
-	"github.com/lestrrat/go-libxml2/types"
-	"github.com/lestrrat/go-libxml2/xpath"
+	"github.com/Cuchulain/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/types"
+	"github.com/Cuchulain/go-libxml2/xpath"
 )
 
 var docPool sync.Pool

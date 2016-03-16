@@ -3,8 +3,8 @@ package dom
 import (
 	"errors"
 
-	"github.com/lestrrat/go-libxml2/clib"
-	"github.com/lestrrat/go-libxml2/types"
+	"github.com/Cuchulain/go-libxml2/clib"
+	"github.com/Cuchulain/go-libxml2/types"
 )
 
 // CreateDocument creates a new document with version="1.0", and no encoding
