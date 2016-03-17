@@ -285,7 +285,7 @@ func (n *XMLNode) AutoFree() {
 }
 
 // UnlinkNode delete the node
-func (n *XMLNode) UnlinkNode() error {
+func UnlinkNode(n types.Node) error {
 	return clib.XMLUnlinkNode(n)
 }
 
